@@ -8,3 +8,7 @@ def test_generic():
     with pytest.raises(NotINRange):
         if a<5:
             raise NotINRange
+def test_akk():
+    a=2
+    b=2
+    assert True
